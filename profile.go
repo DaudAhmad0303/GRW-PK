@@ -8,7 +8,11 @@ type Profile struct {
 	Website  string
 }
 
-// GetProfile returns the public profile information.
+// GetProfile returns the public profile information as follows: https://daudahmad.com
+// Daud Ahmad
+// https://github.com/daud
+// https://www.linkedin.com/in/daud-ahmad
+// https://daudahmad.com
 func GetProfile() Profile {
 	return Profile{
 		Name:     "Daud Ahmad",
@@ -17,4 +21,3 @@ func GetProfile() Profile {
 		Website:  "https://daudahmad.com",
 	}
 }
-
